@@ -12,5 +12,6 @@ namespace DesignPattern_CQRS.DAL.Context
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Customer> Customers{ get; set; }
     }
 }
