@@ -1,0 +1,24 @@
+﻿@model DesignPattern_CQRS.MediatorDesignPattern.Results.GetCustomerByIdQueryResult
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<form method="post">
+    <div class="container">
+        <br />
+        <label>Müşteri ID</label>
+        <input type="text" asp-for="CustomerID" class="form-control" />
+        <br />
+        <label>Müşteri Adı</label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <br />
+        <label>Müşteri Soyadı</label>
+        <input type="text" asp-for="Surname" class="form-control" />
+        <br />
+        <label>Müşteri Departmanı</label>
+        <input type="text" asp-for="Department" class="form-control" />
+        <br />
+        <button class="btn btn-success">Müşteriyi Güncelle</button>
+    </div>
+</form>
